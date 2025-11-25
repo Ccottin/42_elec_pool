@@ -1,0 +1,117 @@
+(footprint "Resistance_10k"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "R**"
+		(at -0.05 -1.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f619501a-3d08-40b1-b9bd-3b59ebeb46d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Value" "Resistance_10k"
+		(at 0.05 -4.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "35330821-cd24-4f7c-86e9-c9b27a7194db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.yageogroup.com/content/Resource%20Library/Product%20Guide-Catalog/yageo_PYu-R_Mount_10_19050818_343.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d51f56ff-b320-426a-84c9-7ec12aea6bd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9baa8183-27c1-47d0-ae30-dbef04d12207")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.55 -0.65)
+		(end 1.55 0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a6110490-af08-46c5-b546-29ac24d82ad0")
+	)
+	(fp_rect
+		(start -0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c697bb43-769b-4454-9e22-4a9637abec09")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 -3.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d42c2b4d-b088-4b10-b368-25268df0a4f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.85 0)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "48f9cdf4-0b39-4d64-8f32-bfe0ccbbefbd")
+	)
+	(pad "2" smd roundrect
+		(at 0.85 0)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "b5ea86ca-4bbf-4376-bf00-9686e299d392")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

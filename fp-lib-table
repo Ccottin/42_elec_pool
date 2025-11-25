@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "42_elec")(type "KiCad")(uri "/home/ccottin/Documents/clara/kicad/42_elec.pretty")(options "")(descr ""))
+)

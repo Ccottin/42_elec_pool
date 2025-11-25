@@ -1,0 +1,159 @@
+(footprint "Switch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "SW**"
+		(at -0.05 -2.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4ac13990-302a-45eb-b97e-ef9bcfb6a605")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Value" "Switch"
+		(at -0.05 -5.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9e06a615-38f0-44d7-821e-07b5f6bee6e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "312a12d9-1818-4629-b098-a43bf6c53fa7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60f39364-38bc-4eb3-ac01-f67b3467f6e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.14 1.11)
+		(end -2.14 1.34)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b9499829-2bcf-450c-ac90-3f4340fbefbf")
+	)
+	(fp_line
+		(start -2.14 1.34)
+		(end -1.91 1.34)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1ca5faa9-c295-4468-a9c4-8bdfaa182292")
+	)
+	(fp_rect
+		(start -2.35 -1.5)
+		(end 2.35 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "31bc8ac3-3deb-452e-bcd5-86fccb84b6d6")
+	)
+	(fp_rect
+		(start -1.95 -0.7)
+		(end -1.45 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "37a46992-d670-484f-8c0c-1bd4ea247eb8")
+	)
+	(fp_rect
+		(start -1.45 -1.2)
+		(end 1.45 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5e0c424b-0bd9-4bbf-9769-2da0ac6c0b5d")
+	)
+	(fp_rect
+		(start 1.45 -0.7)
+		(end 1.95 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1007bcec-3bd6-4586-8651-68d2fd7dbd93")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.05 -4.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c32a20f8-8d41-4ce0-bbae-6e77c6a8e720")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.7 0)
+		(size 0.8 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "0291dac7-2752-4c7b-9043-985f362396c0")
+	)
+	(pad "2" smd roundrect
+		(at 1.7 0)
+		(size 0.8 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "7a15080c-05ff-4243-8420-425c645e0390")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1100P.step"
+		(offset
+			(xyz 0 -0.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
